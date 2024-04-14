@@ -25,6 +25,9 @@ npm install
 clasp login
 # -> ブラウザが開くのでGoogleアカウントでログイン
 # -> GASプロジェクトへのアクセス権を持つアカウント（大体はkindai.ac.jpアカウント）でログインしてください
+
+# branchを切り替え
+git switch develop
 ```
 
 ### 修正後のpush
@@ -32,4 +35,5 @@ clasp login
 # push
 clasp push
 # -> Forbiddenが出てきたら https://script.google.com/home/usersettings でAPIを有効にしてください
+# -> clasp pushしたら必ずgit commit, push, PRの作成を行い、mainにマージしてください
 ```
